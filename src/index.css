@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-zinc-900;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300;
+  }
+
+  .hover-glow:hover {
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.2));
+  }
+
+  .gradient-mask {
+    mask-image: linear-gradient(to bottom, white 50%, transparent 100%);
+  }
+}
+
+.movie-card-hover {
+  @apply transition-all duration-300 bg-white;
+}
+
+.movie-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.25);
+}
