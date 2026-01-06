@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Gen-Z_FashionTrend/static/css/main.4b3ffcfd.css",
-    "main.js": "/Gen-Z_FashionTrend/static/js/main.21b102c6.js",
+    "main.js": "/Gen-Z_FashionTrend/static/js/main.acf97088.js",
     "static/js/453.bae7db6e.chunk.js": "/Gen-Z_FashionTrend/static/js/453.bae7db6e.chunk.js",
     "index.html": "/Gen-Z_FashionTrend/index.html",
     "main.4b3ffcfd.css.map": "/Gen-Z_FashionTrend/static/css/main.4b3ffcfd.css.map",
-    "main.21b102c6.js.map": "/Gen-Z_FashionTrend/static/js/main.21b102c6.js.map",
+    "main.acf97088.js.map": "/Gen-Z_FashionTrend/static/js/main.acf97088.js.map",
     "453.bae7db6e.chunk.js.map": "/Gen-Z_FashionTrend/static/js/453.bae7db6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b3ffcfd.css",
-    "static/js/main.21b102c6.js"
+    "static/js/main.acf97088.js"
   ]
 }
